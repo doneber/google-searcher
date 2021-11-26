@@ -63,3 +63,30 @@ main .main-logo {
 main .main-logo img {
     width: 300px;
 }
+
+main .main-input-searcher {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-searcher-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #e0e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-searcher input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-searcher-container:hover {
+    box-shadow: 0 1px 6px 0 #20212427;
+    border-color: #12121327;
+}
